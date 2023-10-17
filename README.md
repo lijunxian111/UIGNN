@@ -1,5 +1,8 @@
-# UIGNN
+## UIGNN
 This is the official code base of paper "Uncertainty-aware Traffic Prediction under Missing Data" accepted by ICDM 2023
+
+# Dataset
+Please send an email to ljx201806@stu.xjtu.edu.cn for datasets we use.
 
 # Citation
 If you find our model useful, please cite our paper:
