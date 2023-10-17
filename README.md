@@ -3,6 +3,7 @@ This is the official code base of paper "Uncertainty-aware Traffic Prediction un
 
 # Citation
 If you find our model useful, please cite our paper:
+
 `
 @misc{mei2023uncertaintyaware,
       title={Uncertainty-aware Traffic Prediction under Missing Data}, 
