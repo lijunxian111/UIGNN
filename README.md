@@ -16,7 +16,7 @@ This repository shows a sample dataset: SeData. To use it, unfold the 'mat.zip' 
 ## Training & Testing
 To train a UIGNN model without recover loss, use `main.py`(updating)
 
-To train a UIGNN model with recover loss, use `main_full_graph.py`
+To train a UIGNN model with recover loss, use `main_full_graph.py`  --This is the file containing our whole methods reported in our paper.
 
 Active learning methods are also preovided in `active_method_simple.py`
 
