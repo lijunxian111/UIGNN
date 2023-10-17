@@ -3,7 +3,9 @@ This is the official code base of paper "Uncertainty-aware Traffic Prediction un
 
 ## Requirements
 To install required packages, please use:
-      pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
 
 
 ## Dataset
