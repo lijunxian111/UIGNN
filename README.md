@@ -14,9 +14,11 @@ pip install -r requirements.txt
 This repository shows a sample dataset: SeData. To use it, unfold the 'mat.zip' and put it under UIGNN/data/sedata. For more datasets we use, please send an email to ljx201806@stu.xjtu.edu.cn.
 
 ## Training & Testing
-To train a UIGNN model without recover loss, use main.py(updating)
-To train a UIGNN model with recover loss, use main_full_graph.py
-Active learning methods are also preovided in active_learning_simple.py
+To train a UIGNN model without recover loss, use `main.py`(updating)
+
+To train a UIGNN model with recover loss, use `main_full_graph.py`
+
+Active learning methods are also preovided in `active_method_simple.py`
 
 ## Citation
 If you find our model useful, please cite our paper:
