@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 
 ## Dataset
-Please send an email to ljx201806@stu.xjtu.edu.cn for datasets we use.
+This repository shows a sample dataset: SeData. To use it, unfold the 'mat.zip' and put it under UIGNN/data/sedata. For more datasets we use, please send an email to ljx201806@stu.xjtu.edu.cn.
 
 ## Citation
 If you find our model useful, please cite our paper:
