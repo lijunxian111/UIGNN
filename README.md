@@ -21,7 +21,7 @@ To train a UIGNN model with recover loss, use `main_full_graph.py`  --This is th
 Active learning methods are also preovided in `active_method_simple.py`
 
 ## Results
-[![]()][result]
+[![](report.png)][result]
 
 ## Citation
 If you find our model useful, please cite our paper:
