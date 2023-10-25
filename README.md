@@ -14,8 +14,8 @@ pip install -r requirements.txt
 This repository shows a sample dataset: SeData. To use it, unfold the 'mat.zip' and put it under UIGNN/data/sedata. For more datasets we use, please send an email to ljx201806@stu.xjtu.edu.cn.
 
 ## Hyperparameters
-Metr LA: n_o_n_m:150, n_m:50, N_u:50, other settings are default settings.
-Pems and SeData: n_o_n_m:240, n_m:80, N_u:80, other settings are default settings.
+Metr LA: n_o_n_m: 150, n_m: 50, N_u: 50, other settings are default settings. \\
+Pems and SeData: n_o_n_m: 240, n_m: 80, N_u: 80, other settings are default settings.
 
 ## Training & Testing
 To train a UIGNN model without recover loss, use `main.py`(updating)
