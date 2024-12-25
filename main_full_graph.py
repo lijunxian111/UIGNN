@@ -237,12 +237,12 @@ if __name__=="__main__":
         if epoch % 10 == 0:
 
             obs, mis, overall = test_error_forecasting(STmodel, unknow_set, test_set, A, E_maxvalue, True, mc_drop=MC_dropout, EDL=EDL, quantile=quantile)
-            RMSE_list.append(overall[0])
-            MAE_list.append(overall[1])
+            MAE_list.append(overall[0])
+            RMSE_list.append(overall[1])
             MAPE_list.append(overall[2])
 
-            RMSE_mis_list.append(mis[0])
-            MAE_mis_list.append(mis[1])
+            MAE_mis_list.append(mis[0])
+            RMSE_mis_list.append(mis[1])
             MAPE_mis_list.append(mis[2])
             if EDL or MC_dropout:
               NLL_mis_list.append(mis[4])
@@ -252,8 +252,8 @@ if __name__=="__main__":
               obs_std_list.append(obs[3])
 
 
-            RMSE_obs_list.append(obs[0])
-            MAE_obs_list.append(obs[1])
+            MAE_obs_list.append(obs[0])
+            RMSE_obs_list.append(obs[1])
             MAPE_obs_list.append(obs[2])
             if EDL or MC_dropout:
                NLL_obs_list.append(obs[4])
