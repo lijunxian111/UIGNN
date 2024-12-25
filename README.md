@@ -30,13 +30,13 @@ Active learning methods are also preovided in `active_method_simple.py`
 ## Citation
 If you find our model useful, please cite our paper:
 ```
-@misc{mei2023uncertaintyaware,
-      title={Uncertainty-aware Traffic Prediction under Missing Data}, 
-      author={Hao Mei and Junxian Li and Zhiming Liang and Guanjie Zheng and Bin Shi and Hua Wei},
-      year={2023},
-      eprint={2309.06800},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{mei2023uncertainty,
+  title={Uncertainty-aware Traffic Prediction under Missing Data},
+  author={Mei, Hao and Li, Junxian and Liang, Zhiming and Zheng, Guanjie and Shi, Bin and Wei, Hua},
+  booktitle={2023 IEEE International Conference on Data Mining (ICDM)},
+  pages={1223--1228},
+  year={2023},
+  organization={IEEE}
 }
 ```
 
