@@ -243,18 +243,18 @@ if __name__=="__main__":
 
 
             obs, mis, overall = test_error_forecasting_active(STmodel, unknow_set, test_set, A, E_maxvalue, True, mc_drop=MC_dropout, EDL=EDL)
-            RMSE_list.append(overall[0])
-            MAE_list.append(overall[1])
+            MAE_list.append(overall[0])
+            RMSE_list.append(overall[1])
             MAPE_list.append(overall[2])
 
-            RMSE_mis_list.append(mis[0])
-            MAE_mis_list.append(mis[1])
+            MAE_mis_list.append(mis[0])
+            RMSE_mis_list.append(mis[1])
             MAPE_mis_list.append(mis[2])
             if EDL:
                NLL_mis_list.append(mis[4])
 
-            RMSE_obs_list.append(obs[0])
-            MAE_obs_list.append(obs[1])
+            MAE_obs_list.append(obs[0])
+            RMSE_obs_list.append(obs[1])
             MAPE_obs_list.append(obs[2])
             if EDL:
                NLL_obs_list.append(obs[4])
